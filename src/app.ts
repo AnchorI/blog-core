@@ -6,6 +6,8 @@ const port = 3000;
 app.get('/', (req, res) => { res.send('Hello World') })
 app.get('/aftermath', (req, res) => { res.send('One Love') })
 app.get('/taburetka', (req, res) => { res.send('Bad World') })
+app.get('/test', (req, res) => { res.send('test') })
+
 
 app.listen(port, err => {
         if (err) {
