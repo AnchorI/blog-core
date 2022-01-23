@@ -1,0 +1,11 @@
+# ignore all logs
+*.log
+
+# macOS Files
+.DS_Store
+# ignore folders
+node_modules/
+# ignore IDE folders
+.idea
+# ignore compiled folders
+compiled/
